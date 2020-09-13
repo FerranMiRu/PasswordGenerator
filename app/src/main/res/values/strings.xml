@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PasswordGenerator</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="generate">Generate Password</string>
+    <string name="password">Password</string>
+
+    <string name="generate_password">generate_password</string>
+    <string name="length_hint">8</string>
+    <string name="password_length_title">Password Length</string>
+</resources>
