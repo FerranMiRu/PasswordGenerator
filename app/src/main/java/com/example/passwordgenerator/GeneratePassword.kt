@@ -51,7 +51,7 @@ class GeneratePassword : Fragment() {
         val sym_possible_ranges = (listOf(33..47, 58..64, 91..96, 123..126)).shuffled().first()
         val sym = sym_possible_ranges.shuffled().first()
 
-        val basic_positions = (0..(length-1)).shuffled()
+        val basic_positions = (0 until length).shuffled()
         password[basic_positions[0]] = minus.toChar()
         password[basic_positions[1]] = majus.toChar()
         password[basic_positions[2]] = num.toChar()
